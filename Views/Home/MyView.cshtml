@@ -1,0 +1,19 @@
+﻿@{ 
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Party Invite Home</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="text-center">
+        @ViewBag.Greeting dot NET world <br />
+        <!----@ViewData["message"]-->
+        <p>We are going to have an exciting party. </p>
+        <a class="btn btn-primary" asp-action="RsvpForm">RSVP Now</a>
+    </div>
+</body>
+</html>
